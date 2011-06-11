@@ -13,8 +13,8 @@ public class CFSSLTransportLayer
       final int port = 5608;
       private static SSLSocket sslServerSocket;
       static boolean debug = true;
-      final String keyStoreLocation ="C:\\Documents and Settings\\Administrator\\.keystore";
-      final String password = "changeit";
+      final String keyStoreLocation ="/Library/WebServer/Documents/workspace/.keystore";
+//    final String password = "";
       final int socketTimeout = 60000; // Set timeout to one minute as per specs.
       SSLSocketFactory factory;
       PrintWriter pw;
